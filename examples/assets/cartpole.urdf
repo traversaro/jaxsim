@@ -76,6 +76,6 @@
         <parent link="cart"/> 
         <child link="pole"/> 
         <axis xyz="1 0 0"/> 
-        <limit effort="500.0" velocity="10.0" lower="-3.4028234663852886e+38" upper="3.4028234663852886e+38"/> 
+        <limit effort="500.0" velocity="10.0" lower="-1000000000" upper="1000000000"/> 
     </joint>
 </robot>
